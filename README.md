@@ -1,5 +1,7 @@
 # SoloroutePublic
 
+Production ready simple authentication example
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
@@ -7,7 +9,13 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-## Starting with docker
+## Running in prod
+
+To start you need to copy `.example.env` to `.env` 
+
+`cp .example.env .env`
+
+Now build and up the docker container
 
 `docker-compose up --build`
 
