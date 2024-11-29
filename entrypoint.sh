@@ -2,7 +2,7 @@
 set -e
 
 # Wait for Postgres to become available
-until pg_isready -h postgres -p 5432 -U "$POSTGRES_USER"
+until pg_isready -h postgres -p 5435 -U "$POSTGRES_USER"
 do
   echo "Waiting for postgres..."
   sleep 2
